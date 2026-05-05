@@ -4,6 +4,6 @@
 #' @return TRUE if valid
 #' @export
 validate_orders <- function(df) {
-  required_cols <- c("order_id", "price", "date","shipping_price")
+  required_cols <- c("order_id", "price", "date","shipping_price", "zone")
   all(required_cols %in% colnames(df))
 }
