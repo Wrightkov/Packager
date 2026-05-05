@@ -1,0 +1,16 @@
+Package: Packager
+Type: Package
+Title: Tools for Organizing and Analyzing Shipping and Order Data for Small Collectible Businesses
+Version: 0.1.0
+Authors@R: person("Zakk", "Wright", email = "zakkwright@yahoo.com", role = c("aut", "cre"))
+Description: Provides tools for cleaning, validating, and estimating shipping costs.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+Config/roxygen2/version: 8.0.0
