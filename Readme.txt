@@ -7,13 +7,10 @@
 
 ## Installation
 
-You can install the development version from GitHub:
+You can install the file from GitHub:
 
-```r
 # install.packages("devtools")
 devtools::install_github("Wrightkov/Packager")
-
-
 
 
 Commands
@@ -26,12 +23,8 @@ mcommon - main executable. counts most common zone and averages the costs associ
 
 plot_heat - gives heatmap of where orders are coming from most often
 
+Order of standard operations
 
-
-
-
-orders.csv
-   ↓
 clean_orders()
    ↓
 validate_orders()
