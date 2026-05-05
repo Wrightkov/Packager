@@ -1,9 +1,4 @@
-#' Validate Order Data
-#'
-#' @param df Data frame
-#' @return TRUE if valid
-#' @export
 validate_orders <- function(df) {
-  required_cols <- c("order_id", "price", "date","shipping_price", "zone")
+  required_cols <- c("date","shipping_price", "zone")
   all(required_cols %in% colnames(df))
 }
